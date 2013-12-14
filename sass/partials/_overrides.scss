@@ -1,0 +1,90 @@
+.uk-navbar {
+	padding: 3px 20px;
+	background: none;
+}
+
+.uk-navbar-brand {
+	padding-top: 15px;
+	padding-bottom: 0px;
+	a {
+		color: white;
+		font-family: $brand-font;
+		font-size: 1.5em;
+		font-style: italic;
+		margin-top: 10px;
+		border-bottom: 1px dashed rgba(255,255,255,0);
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		text-decoration: none !important;
+		&:hover {
+			border-bottom: 1px dashed rgba(255,255,255,1);
+		}
+	}
+}
+
+ul.uk-navbar-nav {
+	background: none;
+	padding-top: 5px;
+	min-width: 300px;
+	li a {
+		font-family: $main-font;
+		color: white;
+		text-transform: uppercase;
+		font-weight: 500;
+		letter-spacing: .125em;
+		font-size: .85em;
+		margin: 0px 20px;
+		padding: 0px 0px 2px;
+		border-bottom: 1px dashed rgba(255,255,255,0);
+		transition: all .125s ease-in-out;
+		-webkit-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		&:hover {
+			border-bottom: 1px dashed rgba(255,255,255,1);
+			background: none !important;
+			color: rgba(255,255,255,.5);
+		}
+	}
+}
+
+.uk-navbar-nav > li:hover > a {
+	background: none !important;
+	color: white;
+}
+
+.owl-buttons {
+	font-family: $icon-font;
+	position: absolute;
+	display: block;
+	right: 0;
+	bottom: 445px;
+	text-align: center;
+	.owl-prev {
+		font-size: 2.75em;
+		padding: 20px;
+		background: white;
+		color: $brand-colour;
+		transition: all .15s ease-in-out;
+		&:hover {
+			background: $brand-colour;
+			color: white;
+		}
+	}
+	.owl-next {
+		font-size: 2.75em;
+		padding: 20px;
+		background: white;
+		color: $brand-colour;
+		transition: all .15s ease-in-out;
+		&:hover {
+			background: $brand-colour;
+			color: white;
+		}
+	}
+}
+
+
+

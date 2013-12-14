@@ -1,0 +1,32 @@
+/*
+Site Name: http://www.winstonhuxley.com
+Author: Gregory Tandiono
+Author URL: http://greg.winstonhuxley.com
+Date Created: December 8th, 2013
+*/
+
+@import "partials/fonts";
+@import "partials/variables";
+
+
+// GLOBAL STYLES
+
+body {
+	-webkit-font-smoothing: antialiased !important;
+	border: 12px solid $brand-colour;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: $copy-font;
+}
+
+
+@import "partials/layout";
+@import "partials/modules";
+@import "partials/overrides";
+@import "partials/keyframes";
+

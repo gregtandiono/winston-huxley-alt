@@ -1,0 +1,160 @@
+// HEADER STYLES
+
+body {
+	background: $background-colour;
+}
+
+.top-bar {
+	width: 100%;
+	background: $brand-colour;
+	height: 7px;
+}
+
+header {
+	position: fixed;
+	background: $brand-colour;
+	font-family: $main-font;
+	bottom: 0px;
+	width: 100%;
+	z-index: 10;
+}
+
+.tagline {
+	font-family: $main-font;
+	color: $brand-colour;
+	font-size: 1.25em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.tag-border {
+	background: $brand-colour;
+	margin-top: 10px;
+	height: 1px;
+	width: 100%;
+}
+
+// PAGE-SPECIFIC STYLES 
+
+// Home Page Styles
+
+.home-hero {
+	background: url('../images/home-hero.jpg') top center;
+	height: 725px;
+	width: auto;
+	padding: 0px;
+	h1 {
+		font-family: $copy-font;
+		color: $brand-colour;
+		text-align: center;
+		letter-spacing: .1em;
+		padding: 85px 0px 0px;
+		font-size: 1.65em;
+		text-transform: uppercase;
+		span {
+			font-size: 3em;
+			display: block;
+			&.issue {
+				text-transform: none;
+				font-size: .85em;
+				letter-spacing: 0em;
+			}
+		}
+	}
+	.hero-divider {
+		width: 250px;
+		margin: 10px auto;
+		background: $brand-colour;
+		height: 1px;
+	}
+}
+
+#img-carousel {
+	margin: 0px auto 50px;
+	.item img {
+		margin: 0px auto;
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+figcaption.carousel-info {
+	color: $brand-colour;
+	font-family: $copy-font;
+	font-size: 1.25em;
+	line-height: 2em;
+	font-style: italic;
+	padding: 30px;
+	background: white;
+	position: absolute;
+	text-align: right;
+	// right: 0px;
+	top: 30%;
+	h3 {
+		color: $brand-colour;
+		font-family: $copy-font;
+		font-size: 1.5em;
+	}
+   	.cap-divider {
+   		margin: 10px auto 10px auto;
+		background: $brand-colour;
+		height: 4px;
+		width: auto;
+   	}
+}
+
+.owl-item figcaption.carousel-info {
+	opacity: 0;
+	right: -100px;
+	transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+
+.owl-item:hover figcaption.carousel-info {
+	right: 0px;
+	opacity: 1;
+}
+
+.introduction {
+	background: url('../images/intro.jpg') center center;
+	height: 700px;
+	width: 100%;
+	h2 {
+		font-family: $copy-font;
+		color: white;
+		text-align: center;
+		letter-spacing: .1em;
+		padding: 90px 0px 0px;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		line-height: 1.5em;
+		i {
+			font-size: 3.5em;
+		}
+		span {
+			font-size: 1.75em;
+			display: block;
+			line-height: 1.15em;
+			&.subtitle {
+				font-size: .75em;
+				font-weight: 500;
+				text-transform: none;
+				font-family: $main-font;
+				letter-spacing: 0em;
+				line-height: 1.65em;
+				color: white;
+			}
+		}		
+	}
+}
+
+section.notation {
+	padding: 50px 0px 25px;
+}
+
+

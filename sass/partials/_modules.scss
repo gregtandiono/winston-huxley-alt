@@ -1,0 +1,83 @@
+.clear-y {
+	padding: 50px 0px;
+}
+
+.clear-y-small {
+	padding: 25px 0px;
+}
+
+.center {
+	margin: 0px auto;
+}
+
+a.action-button {
+	font-family: $main-font;
+	color: $brand-colour;
+	text-transform: uppercase;
+	letter-spacing: .35em;
+	font-size: 1.25em;
+	background: none;
+	text-decoration: none;
+	padding: 10px 0px 10px 12px;
+	text-align: center;
+	display: block;
+	max-width: 200px;
+	margin: 0px auto;
+	transition: all .125s ease-in-out;
+	-moz-transition: all .125s ease-in-out;
+	-o-transition: all .125s ease-in-out;
+	-webkit-transition: all .125s ease-in-out;
+	&:hover {
+		background: $brand-colour;
+		color: white;
+	}
+	&.reverse {
+		color: white;
+		background: none;
+		max-width: 250px;
+		&:hover {
+			background: white;
+			color: $brand-colour;
+		}
+	}
+}
+
+.title-divider {
+	width: 165px;
+	margin: 10px auto 30px;
+	background: white;
+	height: 1px;
+}
+
+.section-title {
+	font-size: 1.85em;
+	color: $brand-colour;
+	font-family: $copy-font;
+	text-transform: uppercase;
+	display: block;
+}
+
+.section-divider {
+	background: $brand-colour;
+	height: 2px;
+	max-width: 150px;
+	margin: 0px 0px 10px;
+	&.center {
+		margin: 0px auto 10px;
+	}
+}
+
+.copy {
+	font-size: 1.125em;
+	color: $brand-colour;
+	font-family: $main-font;
+	font-weight: 400;
+	span {
+		font-weight: 600;
+		font-size: 1.35;
+		text-transform: uppercase;
+	}
+}
+
+
+
